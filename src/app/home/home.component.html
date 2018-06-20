@@ -1,0 +1,25 @@
+
+<app-leftmenu></app-leftmenu>
+<div class="container-fluid mdMarginTop">
+ 
+  <div class="col-xs-12 col-sm-12 noPadding mdMarginBtm2" *ngFor="let homeList of homeList" >
+    <a [routerLink]="homeList.link">
+    <div class="col-xs-12 col-sm-12 noPadding boxShadow lgBorderR mdBoxHight bgWhite">
+      <div class="col-xs-10 col-sm-10 noPadding">
+        <div class="col-xs-6 col-sm-6 noPadding">
+            <img [src]="homeList.img" class="img-responsive homeImg" alt="logo">
+        </div>
+        <div class="col-xs-6 col-sm-6 noPadding">
+          <h4>{{homeList.name}}</h4>
+        </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 noPadding">
+        <div class="arrowBox fRight boxShadow"><i class="fal fa-angle-right fa-2x"></i></div>
+      </div>
+    </div>
+    </a>
+  </div>
+ 
+
+
+</div>

@@ -1,0 +1,48 @@
+.img-responsive{
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.btn-default {
+    color: #FFF;
+    width: 50%;
+    background: #294394;
+    border: none;
+}
+.login .form-control{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    transition: none;
+    border-radius: 0px;
+}
+
+.login .form-control:focus{
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ddd;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #ddd;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #ddd;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #ddd;
+  }

@@ -1,0 +1,17 @@
+.homeImgS{
+    position: relative;
+    left: -29px;
+    top: -13px;
+}
+.panel-group{
+    margin-bottom: 10px;
+}
+.homeImg2{
+    position: absolute;
+    top: 38px;
+    left: 0px;
+}
+
+.xlMarginLeft{
+margin-left: 104px
+}

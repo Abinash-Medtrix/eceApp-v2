@@ -1,0 +1,18 @@
+.img-responsive{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.boderR{border-right: 1px solid #ddd;}
+p{
+    font-size: 12px;
+}
+
+.heightmd{
+min-height: 240px;
+}
+
+.fa-ellipsis-h{
+    position: absolute;
+    right: 10px;
+    color: #ddd;
+}
